@@ -5,7 +5,7 @@ INC_DIR := inc
 OBJ_DIR := build
 
 COMPILER := g++
-CFLAGS := -std=c++11 -Wall -Werror -Wextra -I./$(INC_DIR)
+CFLAGS := -std=c++14 -Wall -Werror -Wextra -I./$(INC_DIR)
 
 DIRS := $(patsubst $(SRC_DIR)%, $(OBJ_DIR)%, $(shell find $(SRC_DIR) -type d))
 SRCS := $(shell find $(SRC_DIR) -type f -name "*.cc")
