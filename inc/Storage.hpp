@@ -19,7 +19,6 @@ struct Storage
 {
 	std::vector<Equation> equations;
 	std::unordered_map<char, int> variables;
-	std::set<char> vars_true;
 	std::set<char> vars_to_find;
 };
 

@@ -92,7 +92,6 @@ void	Parser::parser(std::string const& rule)
 		for (std::size_t i = 1; i < size; ++i)
 		{
 			_storage->variables[rule[i]] = 1;
-			_storage->vars_true.insert(rule[i]);
 		}
 	}
 	else if (rule[0] == '?')
