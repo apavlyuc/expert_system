@@ -11,7 +11,7 @@ namespace {
 
 	void delete_spaces_and_comments(std::string& str)
 	{
-		std::size_t comment_start_idx = str.rfind('#');
+		std::size_t comment_start_idx = str.find('#');
 		if (comment_start_idx != std::string::npos)
 		{
 			str.erase(comment_start_idx);
