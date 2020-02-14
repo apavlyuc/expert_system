@@ -15,11 +15,6 @@ void print_storage(Storage const& storage)
 	{
 		std::cout << "\t\tvar: " << variable.first << " state: " << variable.second << std::endl;
 	}
-	std::cout << "\tDeterminated facts:" << std::endl;
-	for (auto const& variable : storage.vars_true)
-	{
-		std::cout << "\t\tvar: " << variable << std::endl;
-	}
 	std::cout << "\tVariable to find:" << std::endl;
 	for (auto variable : storage.vars_to_find)
 	{

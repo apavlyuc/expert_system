@@ -11,7 +11,7 @@ namespace {
 
 	void delete_spaces_and_comments(std::string& str)
 	{
-		std::size_t comment_start_idx = str.rfind('#');
+		std::size_t comment_start_idx = str.find('#');
 		if (comment_start_idx != std::string::npos)
 		{
 			str.erase(comment_start_idx);
@@ -92,7 +92,6 @@ void	Parser::parser(std::string const& rule)
 		for (std::size_t i = 1; i < size; ++i)
 		{
 			_storage->variables[rule[i]] = 1;
-			_storage->vars_true.insert(rule[i]);
 		}
 	}
 	else if (rule[0] == '?')
