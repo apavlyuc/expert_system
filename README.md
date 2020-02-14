@@ -6,7 +6,7 @@ Purpose: find unknown variables in equations(in terms of boolean maths).
 Done according to subject requirements. You can see it in res/expert-system.en.pdf.
 
 # Pre-install requirements
-You ned to have Make utility and g++ compiler which supports c++14.
+You need to have Make utility and g++ compiler which supports c++14.
 
 # Usage
 Open project folder and run ```console make```
@@ -23,4 +23,4 @@ The file should have the following structure:
 And pass it to the program.
 ```console ./expert -f file.txt```
 
-For more options, or information tru to run program with -h flag.
+For more options, or information try to run program with -h flag.
