@@ -15,7 +15,7 @@ Create input file.
 The file should have the following structure:
 ```console cat file.txt
   #comment starts with '#'
-  A + B => C  # this is equation
+  A | B => C  # this is equation
   =A          # this is facts which value is true, all other facts is undefined by default.
   ?C          # this is facts which value we try to find.
 ```
