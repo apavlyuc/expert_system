@@ -1,0 +1,21 @@
+#In this section, each question will have a theme, for example "AND conditions", and you must test whether the program actually manages to handle said theme. The students MUST provide some examples. Indeed, the subject says (verbatim) "Any capability of your program that is not demonstrated by your examples will NOT be counted as present". So, if the students do not have an example that proves a feature working, then you must consider that it is not there. You should also try input files of your own creation against the users' program, as long as they fit the question's theme. If you really have no examples of your own, use the examples in the question.
+
+#AND conditions and conclusions
+#The program can handle basic AND conditions, and AND conclusions.
+
+#Example input:
+B => A
+D + E => B
+G + H => F
+I + J => G
+G => H
+L + M => K
+O + P => L + N
+N => M
+
+=DEIJOP
+
+?AFKP
+
+#With =DEIJOP, AFKP is true.
+#With =DEIJP, AFP is true, K is false.

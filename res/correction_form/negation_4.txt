@@ -1,0 +1,14 @@
+# The program can handle negation.
+
+# Example input 1:
+B + !C => A
+
+=BC
+
+# [INITIAL FACTS HERE]
+?A
+
+# With =, A should be false.
+# With =B, A should be true.
+# With =C, A should be false.
+# With =BC, A should be false.

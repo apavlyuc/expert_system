@@ -1,0 +1,5 @@
+V ^ W		=> X		# V xor W implies X
+
+=
+
+?VX

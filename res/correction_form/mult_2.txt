@@ -1,0 +1,15 @@
+# The program can handle multiple rules that have the same conclusion.
+
+# Example input 1:
+B => A
+C => A
+
+=B
+
+# [INITIAL FACTS HERE]
+?A
+
+# With =, A should be false.
+# With =B, A should be true.
+# With =C, A should be true.
+# With =BC, A should be true.

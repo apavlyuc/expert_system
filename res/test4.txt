@@ -1,0 +1,3 @@
+A + !B		=> F		# A and not B implies F
+
+=AB

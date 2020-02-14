@@ -1,0 +1,5 @@
+E + F		=> !V		# E and F implies not V
+
+=
+
+?V
