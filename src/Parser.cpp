@@ -3,6 +3,7 @@
 #include <iostream>
 #include <regex>
 #include <algorithm>
+#include <map>
 
 namespace {
 	const std::map<char, int> priority = {

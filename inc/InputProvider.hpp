@@ -10,6 +10,8 @@
 class InputProvider
 {
 public:
+	virtual ~InputProvider() = default;
+
 	virtual bool read_next_input(std::string& dst, char delimeter = '\n') const = 0;
 
 	virtual std::shared_ptr<CreationContext> const& get_creation_context() const = 0;

@@ -9,7 +9,7 @@
 class Parser {
 	bool _need_log;
 
-	bool _rules{false};
+	// bool _rules{false};
 	bool _end_of_rules{false};
 	bool _facts{false};
 
